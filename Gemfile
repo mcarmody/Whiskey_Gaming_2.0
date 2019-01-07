@@ -35,13 +35,15 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'nodejs-rails', '~> 0.0.1'
 gem 'better_errors'
+gem 'devise'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'rollbar'
 gem 'will_paginate', '3.1.6'
 gem 'will_paginate-bootstrap'
 gem 'faker', '1.7.3'
- 
+gem 'open_dota_api'
+gem 'httparty'
 group :development, :test do
    gem 'sqlite3', '1.3.13'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
